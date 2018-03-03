@@ -224,6 +224,25 @@ nav li.slide {
   padding-left: 20px;
 }
 
+.contacts{
+  margin: 20px;
+  margin-left: 20%;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+}
+
+.btn{
+  background-color: #184372;
+}
+
+.btn:hover{
+  background-color: #2975c2;
+}
+
+.contact-icons{
+  width: 30px;
+}
+
 .content{
   display: flex;
   flex-direction: row;
@@ -334,4 +353,37 @@ nav li.slide {
     padding-left: 30px;
     font-size: 25px;
     font-family: 'PT Sans', sans-serif;
+  }
+
+  .footer{
+    background-color: #222222;
+  }
+
+  .content_heading_end{
+    text-align: center;
+    font-size: 30px;
+    color: #9b9b9b;
+  }
+
+  .copyright{
+    text-align: center;
+    color: #9b9b9b;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .end-icons{
+    color: #9b9b9b;
+    margin: 20px;
+  }
+
+  .end-icons:hover{
+    color: #ffffff;
+    margin: 20px;
+  }
+
+  .end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
