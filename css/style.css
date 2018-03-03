@@ -139,6 +139,12 @@ nav li.slide {
   }
 }
 
+.icon{
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
 .heading{
   display: flex;
   flex-direction: row;
