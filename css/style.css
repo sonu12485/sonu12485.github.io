@@ -231,6 +231,15 @@ nav li.slide {
   font-size: 30px;
 }
 
+@media only screen and (max-width: 500px) {
+  .contacts{
+    margin: 20px;
+    margin-left: 5%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+  }
+}
+
 .btn{
   background-color: #184372;
 }
