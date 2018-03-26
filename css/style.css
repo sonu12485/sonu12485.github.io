@@ -204,6 +204,20 @@ nav li.slide {
   color: #184372;
 }
 
+.youtube{
+  margin: 20px;
+}
+
+.video1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.video2{
+  display: none;
+}
+
 .project{
   display: flex;
   flex-direction: row;
@@ -237,6 +251,17 @@ nav li.slide {
     margin-left: 5%;
     font-family: 'PT Sans', sans-serif;
     font-size: 30px;
+  }
+
+  .video1{
+    display: none;
+  }
+  
+  .video2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 }
 
