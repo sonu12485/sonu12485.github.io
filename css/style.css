@@ -167,11 +167,13 @@ nav li.slide {
 #text{
   grid-area: text;
   font-size: 50px;
+  text-align: center;
 }
 
 #text1{
   grid-area: text1;
   font-size: 30px;
+  text-align: center;
 }
 
 #header_container{
@@ -222,12 +224,13 @@ nav li.slide {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-left: 20px;
 }
 
 .project_img{
   width: 500px;
 	height: 300px;
-  border-radius: 30px;
+  border-radius: 5px;
   margin: 10px;
   margin-right: 30px;
 }
@@ -245,7 +248,7 @@ nav li.slide {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1100px) {
   .contacts{
     margin: 20px;
     margin-left: 5%;
@@ -283,11 +286,30 @@ nav li.slide {
   justify-content: space-around;
 }
 
+.left_content {
+  width: 50%;
+  padding: 2%;
+}
+
+.right_content {
+  width: 50%;
+  padding: 2%;
+}
+
 @media only screen and (max-width: 600px) {
   .content{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  }
+  .left_content {
+    width: 100%;
+    padding: 3%;
+  }
+  
+  .right_content {
+    width: 100%;
+    padding: 3%;
   }
 }
 
@@ -300,7 +322,7 @@ nav li.slide {
   .project_img{
     width: 250px;
   	height: 150px;
-    border-radius: 15px;
+    border-radius: 7px;
     margin: 10px;
   }
 }
